@@ -26,6 +26,10 @@ func Min(num1, num2 float64) float64 {
 	return math.Min(num1, num2)
 }
 
-func main() {
+func Abs(num float64) float64 {
+	return math.Abs(num)
+}
 
+func Yn(num1 int, num2 float64) float64 {
+	return math.Yn(num1, num2)
 }
